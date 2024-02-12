@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
             int x;
             if(x == 0)
             {
-                printf("No input provided");
+                // printf("No input provided");
             }
         }
 
