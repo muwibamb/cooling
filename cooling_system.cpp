@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     int temperature = atoi(argv[1]); // Convert string to integer
     int pressure = atoi(argv[2]);    // Convert string to integer
     std::cout<<"Sensor readings:";
-    std::cout<<" Temperature = "<<temperature;
+    std::cout<<" Temperature = "<<argv[1];
     std::cout<<" Pressure = "<<pressure <<" ==> ";
     // Define thresholds
     int temperature_threshold = 25;  // Threshold temperature
