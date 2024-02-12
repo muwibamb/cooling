@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Compile the C++ program
-g++ cooling_system.cpp -o cooling/cooling_system
+g++ cooling/cooling_system.cpp -o cooling_system
 
 # Check if compilation was successful
 if [ $? -ne 0 ]; then
